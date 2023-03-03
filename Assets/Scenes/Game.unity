@@ -1462,12 +1462,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#6F0000><b>Quiting?</b></color>
+  m_text: '<color=#6F0000><b><i>Quiting?</i></b></color>
 
     you sure bout that?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 10d2d269b3d25404289dacc372425287, type: 2}
+  m_sharedMaterial: {fileID: 3332774920781842624, guid: 10d2d269b3d25404289dacc372425287, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1491,8 +1491,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.71
-  m_fontSizeBase: 47.71
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2110,8 +2110,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294218741
-  m_fontColor: {r: 0.9622642, g: 0.5764507, b: 0.9564237, a: 1}
+    rgba: 4288541643
+  m_fontColor: {r: 0.79552335, g: 0.9528302, b: 0.61574405, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1764706, g: 0.25882354, b: 0.3882353, a: 0.65882355}
+  m_Color: {r: 0.17647058, g: 0.3882353, b: 0.24198808, a: 0.9137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

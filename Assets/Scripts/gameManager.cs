@@ -74,9 +74,11 @@ public class gameManager : MonoBehaviour
         // LOOP: create disks depending on how many is inputed
         for (int i = diskNum; i > 0; i--)
         {
-            // create Disk
+            // create Disk (newDisk is the parent/disk holder) diskChild is the disk itself
             GameObject newDisk = Instantiate(disk, Tower1.transform, true);
             GameObject diskChild = newDisk.transform.GetChild(0).gameObject;
+            SpriteRenderer sp = diskChild.GetComponent<SpriteRenderer>();
+            
 
             //change the position of the disk container (meaning all children too) 
             float xPos = Tower1.transform.position.x;
@@ -110,6 +112,9 @@ public class gameManager : MonoBehaviour
             newDisk.name = "Disk " + (i);
             // put disks in the stack
             InitalStack.Push(newDisk);
+
+            //change the color of the disk
+            sp.color = Random.ColorHSV(0, 1, .53f, .53f, .76f, .76f);
 
         }
     }

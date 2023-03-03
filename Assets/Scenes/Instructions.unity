@@ -569,8 +569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sp: {fileID: 372062155}
-  hoverColor: {r: 0.6465407, g: 0.4523407, b: 0.8962264, a: 1}
-  defaultColor: {r: 0.5176471, g: 0.29803923, b: 0.8, a: 1}
+  hoverColor: {r: 0.6784314, g: 0.76862746, b: 0.9137255, a: 1}
+  defaultColor: {r: 0.29803923, g: 0.5176471, b: 0.8, a: 1}
   distance: 25
   camera: {fileID: 1613583524}
   isPlayButton: 1
@@ -642,7 +642,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.51909995, g: 0.29803926, b: 0.8, a: 1}
+  m_Color: {r: 0.29803923, g: 0.5176471, b: 0.8, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2241,7 +2241,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.51909995, g: 0.29803926, b: 0.8, a: 1}
+  m_Color: {r: 0.29803923, g: 0.5176471, b: 0.8, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2265,7 +2265,7 @@ Transform:
   m_Children:
   - {fileID: 1129671581}
   m_Father: {fileID: 1160826000}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &745812632
 MonoBehaviour:
@@ -2280,8 +2280,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sp: {fileID: 745812630}
-  hoverColor: {r: 0.6465407, g: 0.4523407, b: 0.8962264, a: 1}
-  defaultColor: {r: 0.5176471, g: 0.29803923, b: 0.8, a: 1}
+  hoverColor: {r: 0.6784314, g: 0.76862746, b: 0.9137255, a: 1}
+  defaultColor: {r: 0.29803923, g: 0.5176471, b: 0.8, a: 1}
   distance: 25
   camera: {fileID: 1613583524}
   isPlayButton: 0
@@ -3594,10 +3594,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1070816430}
+  - {fileID: 745812631}
   - {fileID: 1912671544}
   - {fileID: 1592192575}
   - {fileID: 118234758}
-  - {fileID: 745812631}
   - {fileID: 980329080}
   - {fileID: 1917524355}
   m_Father: {fileID: 0}

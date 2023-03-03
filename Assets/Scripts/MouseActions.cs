@@ -21,6 +21,7 @@ public class MouseActions : MonoBehaviour
     public GameObject winScreen;
 
     public GameObject spotLight;
+    public GameObject wrongLight;
     public GameObject volumeLight;
 
 
@@ -47,6 +48,7 @@ public class MouseActions : MonoBehaviour
     {
         //sp.color = defaultColor;
         spotLight.active = false;
+        wrongLight.active = false;
     }
 
 
@@ -113,6 +115,10 @@ public class MouseActions : MonoBehaviour
                 gm.holdingDisk = false;
                 //push to array
                 TowerStack.Push(disk);
+            }
+            else
+            {
+                wrongLight.active = true;
             }
 
         }
